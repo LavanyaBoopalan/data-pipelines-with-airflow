@@ -54,7 +54,6 @@ Utilize the provided SQL helper class for data transformations. These operators 
 Create the data quality operator to run checks on the data using SQL-based test cases and expected results. The operator should raise an exception and initiate task retry and eventual failure if test results don't match expectations.
 
 ## Reviewing Starter Code
-Before diving into development, familiarize yourself with the following files:
 - [plugins/operators/data_quality.py](plugins/operators/data_quality.py)
 - [plugins/operators/load_fact.py](plugins/operators/load_fact.py)
 - [plugins/operators/load_dimension.py](plugins/operators/load_dimension.py)
@@ -62,4 +61,3 @@ Before diving into development, familiarize yourself with the following files:
 - [plugins/helpers/sql_queries.py](plugins/helpers/sql_queries.py)
 - [dags/final_project.py](dags/final_project.py)
 
-Now you're ready to embark on this exciting journey into the world of Data Pipelines with Airflow!
